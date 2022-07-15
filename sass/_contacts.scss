@@ -2,7 +2,7 @@
     font-family: 'DM Sans' sans-serif;
     /*background: #E5E5E5;*/
     background-color: var(--background-color);
-    color: var(--text-color-primary);
+    color: var(--primary-text-color);
     width: 320px;
 }
 
@@ -17,13 +17,13 @@ ul {
     list-style: none;
 }
 
-h1 {
+h3 {
     height: 22px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 1, 83;
-    color: #000000;
+    color: var(--primary-text-color);
 }
 
 .cards-section {
@@ -34,7 +34,7 @@ h1 {
 .card-section-item {
     width: 280px;
     height: 412px;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
     border-radius: 24px;
 }
 
@@ -51,7 +51,7 @@ h1 {
     font-size: 12px;
     letter-spacing: .06em;
     border: none;
-    color: #fff;
+    color: var(--white-color);
 }
 
 .work-time {
@@ -61,7 +61,7 @@ h1 {
     font-weight: 500;
     font-size: 12px;
     line-height: 1, 83;
-    color: var(--text-color-secondary);
+    color: var(--secondary-accent-color);
 }
 
 .contacts-container {
@@ -72,14 +72,14 @@ h1 {
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    color: #907E82;
+    color: var(--secondary-text-color);
 }
 
 .description {
     width: 216px;
     padding-top: 24px;
     padding-bottom: 24px;
-    color: var(--text-color-primary);
+    color: var(--primary-text-color);
 }
 
 .container-2 {
