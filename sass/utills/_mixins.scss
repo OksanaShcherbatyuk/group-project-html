@@ -1,0 +1,60 @@
+@mixin grid-wrap($disp: flex, $ml: -32px, $mt: -32px, $fw: wrap) {
+  display: $disp;
+  margin-left: $ml;
+  margin-top: $mt;
+  flex-wrap: $fw;
+}
+
+@mixin grid-item($mr: 32px, $mb: 32px) {
+  margin-right: $mr;
+  margin-bottom: mb;
+  //Добавлять calc отдельно//
+@mixin grid-item($ml: 32px, $mt: 32px) {
+    margin-left: $ml;
+    margin-top: $mt;
+    //Добавлять calc отдельно//
+
+}
+
+@mixin flex-aline($disp: flex, $jc: center, $ai: center) {
+  display: $disp;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+@mixin font($fs: 12px, $fw: 700, $lh: 1.5) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh;
+}
+
+@mixin retina {
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    @content;
+  }
+}
+@mixin transit(
+  $type: transform,
+  $td: var(--time-duration),
+  $tf: var(--time-function)
+) {
+  transition: $type $td $tf;
+}
+
+@mixin mobile {
+  @media screen and (min-width: 320px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}

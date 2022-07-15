@@ -1,0 +1,57 @@
+.advantages {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: var(--background-color);
+    &__number {
+        font-family: var(--secondary-font-family), sans-serif;
+        @include font (36px, 400, 1.14);
+        color: var(--accent-text-color);
+        margin-bottom: 20px;
+        }
+
+    &__text {
+        @include font(12px, 700, 1.7);
+    }
+    &__list {
+        @include grid-wrap;
+    }
+    &__item {
+        @include grid-item;
+        max-width: 230px;
+    }
+}
+
+.advantages__number::before {
+    content: " ";
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 16px;
+    width: 50px;
+    height: 50px;
+}
+
+.advantages__number--adder::before {
+    background-image: url(../images/advantages/cow-udder-mob-1x.png);
+    @include retina {
+        background-image: url(../images/advantages/cow-udder-mob-2x.png);
+    }
+}
+
+.advantages__number--apples::before {
+    background-image: url(../images/advantages/apples-mob-1x.png);
+    @include retina {
+        background-image: url(../images/advantages/apples-mob-2x.png);
+    }
+}
+
+.advantages__number--heart::before {
+    background-image: url(../images/advantages/heart-mob-1x.png);
+    @include retina {
+        background-image: url(../images/advantages/heart-mob-2x.png);
+    }
+}
+
+
+

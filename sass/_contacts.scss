@@ -1,0 +1,57 @@
+.main-container {
+    font-family: 'DM Sans' sans-serif;
+    --background-color: #FFF5F6;
+    --button-text-color: #FFFFFF;
+    --text-color-primary: #907E82;
+    --text-color-secondary: #FFA5BA;
+    background-color: var(--background-color);
+    color: var(--text-color-primary);
+    width: 320px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    width: 107.17px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1, 83;
+    color: #000000;
+}
+
+.work-time {
+    width: 137.96px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1, 83;
+    color: #FFA5BA;
+}
+
+.contacts-container {
+    padding-top: 24px;
+    width: 179px;
+    height: 37px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #907E82;
+    border-top: 1px solid #E1E1E1;
+}
+
+.description {
+    width: 216px;
+    border-bottom: 1px solid #E1E1E1;
+}
