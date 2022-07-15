@@ -1,9 +1,6 @@
 .section-contacts {
     font-family: 'DM Sans' sans-serif;
-    --background-color: #FFF5F6;
-    --button-text-color: #FFFFFF;
-    --text-color-primary: #907E82;
-    --text-color-secondary: #FFA5BA;
+    /*background: #E5E5E5;*/
     background-color: var(--background-color);
     color: var(--text-color-primary);
     width: 320px;
@@ -18,18 +15,43 @@ a {
 
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
-h3 {
-    width: 107.17px;
+h1 {
     height: 22px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 1, 83;
     color: #000000;
+}
+
+.cards-section {
+    /* padding-top: 4896px; */
+    padding-bottom: 40px;
+}
+
+.card-section-item {
+    width: 280px;
+    height: 412px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.button {
+    width: 80px;
+    height: 16px;
+    background: #F0D1A5;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: .06em;
+    border: none;
+    color: #fff;
 }
 
 .work-time {
@@ -39,7 +61,7 @@ h3 {
     font-weight: 500;
     font-size: 12px;
     line-height: 1, 83;
-    color: #FFA5BA;
+    color: var(--text-color-secondary);
 }
 
 .contacts-container {
@@ -51,10 +73,20 @@ h3 {
     font-size: 12px;
     line-height: 18px;
     color: #907E82;
-    border-top: 1px solid #E1E1E1;
 }
 
 .description {
     width: 216px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: var(--text-color-primary);
+}
+
+.container-2 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid #E1E1E1;
     border-bottom: 1px solid #E1E1E1;
 }
+
+.buttons-section {}
