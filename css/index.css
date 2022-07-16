@@ -546,8 +546,8 @@ body {
 .container-section {
   width: 100%;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hidden {
@@ -591,6 +591,7 @@ h4 {
   height: 332px;
   background-color: var(--white-color);
   border-radius: 24px;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
 }
 .card-section-item:last-child {
   margin-bottom: 32px;
