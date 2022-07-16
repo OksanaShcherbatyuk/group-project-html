@@ -7,12 +7,15 @@
 
 @mixin grid-item($mr: 32px, $mb: 32px) {
   margin-right: $mr;
-  margin-bottom: mb;
-  //Добавлять calc отдельно//
+  margin-bottom: $mb;
+}
+
+//Добавлять calc отдельно//
+
 @mixin grid-item($ml: 32px, $mt: 32px) {
-    margin-left: $ml;
-    margin-top: $mt;
-    //Добавлять calc отдельно//
+  margin-left: $ml;
+  margin-top: $mt;
+  //Добавлять calc отдельно//
 
 }
 
@@ -29,17 +32,17 @@
 }
 
 @mixin retina {
+
   @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     @content;
   }
 }
-@mixin transit(
-  $type: transform,
+
+@mixin transit($type: transform,
   $td: var(--time-duration),
-  $tf: var(--time-function)
-) {
+  $tf: var(--time-function)) {
   transition: $type $td $tf;
 }
 
@@ -48,11 +51,13 @@
     @content;
   }
 }
+
 @mixin tablet {
   @media screen and (min-width: 768px) {
     @content;
   }
 }
+
 @mixin desktop {
   @media screen and (min-width: 1200px) {
     @content;
