@@ -45,11 +45,14 @@ h4 {
     line-height: 1, 83;
     color: var(--primary-text-color);
 }
-
+/*
 .cards-section {
-    /* padding-top: 4896px; */
+    padding-top: 4896px;
     padding-bottom: 40px;
 }
+.cards-section:last-child {
+    padding-bottom: 0px;
+}*/
 
 .card-section-item {
     display: inline-block;
@@ -176,13 +179,8 @@ h4 {
     }
 }
 
-
-
-.container-2 {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-top: 1px solid #E1E1E1;
-    border-bottom: 1px solid #E1E1E1;
+.location {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-
-.buttons-section {}
