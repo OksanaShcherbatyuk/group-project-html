@@ -1,7 +1,7 @@
 .section-contacts {
     padding-bottom: 40px;
     padding-top: 60px;
-    font-family: 'DM Sans' sans-serif;
+    font-family: var(--primary-font-family);
     /*background: #E5E5E5;*/
     
     color: var(--primary-text-color);
@@ -66,30 +66,16 @@ h4 {
     display: inline-block;
 }
 
-.h3 {
-    
-    
-    border-radius: 4px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    font-size: 12px;
-    letter-spacing: .06em;
-    border: none;
-    
-}
-
 .cafe {
     display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+    margin-bottom: 20px;
     width: 80px;
     height: 16px;
     border-radius: 4px;
-    font-family: 'DM Sans';
+    font-family: var(--primary-font-family);
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -104,10 +90,11 @@ h4 {
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-bottom: 20px;
         width: 130px;
         height: 16px;
         border-radius: 4px;
-        font-family: 'DM Sans';
+        font-family: var(--primary-font-family);
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -116,7 +103,31 @@ h4 {
         color: var(--white-color);
         background-color: #C2E297;
 }
+
+.city {
+    margin-bottom: 8px;
+    width: 57.01px;
+    height: 22px;
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: var(--primary-text-color);
+}
+.city-la {
+    width: 75px;
+    
+}
+.line {
+    margin-bottom: 24px;
+    width: 216px;
+    height: 0px;
+    border-bottom: 1px solid #E1E1E1;
+}
 .work-time {
+    margin-bottom: 24px;
     width: 137.96px;
     height: 22px;
     font-style: normal;
@@ -127,7 +138,7 @@ h4 {
 }
 
 .contacts-container {
-    padding-top: 24px;
+    
     width: 179px;
     height: 37px;
     font-style: normal;
@@ -138,11 +149,34 @@ h4 {
 }
 
 .description {
-    width: 216px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    color: var(--primary-text-color);
+    margin-bottom: 24px;
+    width: 179px;
+    height: 36px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    
+    color: var(--secondary-text-color);
 }
+.contacts-mail {
+    color: var(--secondary-text-color);
+&:focus,
+&:hover {
+    color: #2196F3;
+}
+}
+.contacts-tel {
+    color: var(--secondary-text-color);
+
+    &:focus,
+    &:hover {
+        color: #2196F3;
+    }
+}
+
+
 
 .container-2 {
     padding-top: 24px;
