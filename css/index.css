@@ -759,12 +759,12 @@ h4 {
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  color: var(--white-color);
+  color: #D41342;
   border-radius: 22px;
   border: none;
-  background-color: #D41342;
+  background-color: var(--white-color);
 }
 .button-franchise:focus, .button-franchise:hover {
-  color: #D41342;
-  background-color: var(--white-color);
+  color: var(--white-color);
+  background-color: #D41342;
 }/*# sourceMappingURL=index.css.map */
