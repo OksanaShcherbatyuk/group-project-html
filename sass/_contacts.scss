@@ -53,6 +53,7 @@ h4 {
 
 .card-section-item {
     display: inline-block;
+    margin-bottom: 20px;
     padding: 40px 32px;
     width: 216px;
     height: 332px;
@@ -66,9 +67,8 @@ h4 {
 }
 
 .h3 {
-    width: 80px;
-    height: 16px;
-    background: #F0D1A5;
+    
+    
     border-radius: 4px;
     text-align: center;
     display: flex;
@@ -78,9 +78,44 @@ h4 {
     font-size: 12px;
     letter-spacing: .06em;
     border: none;
-    color: var(--white-color);
+    
 }
 
+.cafe {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    width: 80px;
+    height: 16px;
+    border-radius: 4px;
+    font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    background-color: #F0D1A5;
+}
+
+.foodtrack {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 130px;
+        height: 16px;
+        border-radius: 4px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.04em;
+        color: var(--white-color);
+        background-color: #C2E297;
+}
 .work-time {
     width: 137.96px;
     height: 22px;
