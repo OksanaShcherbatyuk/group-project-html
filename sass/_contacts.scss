@@ -1,3 +1,4 @@
+
 .section-contacts {
     padding-bottom: 40px;
     padding-top: 60px;
@@ -235,8 +236,12 @@ h4 {
         color:#D41342;
         border-radius: 22px;
         border: none;
-        background-color: var(--white-color);
-    
+        background-color: #000;
+        .svg-franchise
+                {
+                    
+            fill: var(--accent-text-color);
+        }
         &:focus,
         &:hover {
             color: var(--white-color);
