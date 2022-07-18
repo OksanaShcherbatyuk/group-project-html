@@ -544,6 +544,11 @@ body {
     width: 320px;
   }
 }
+@media screen and (min-width: 768px) {
+  .section-contacts {
+    width: 768px;
+  }
+}
 
 .container-section {
   display: flex;
@@ -561,6 +566,11 @@ body {
 .cards-section {
   width: 280px;
 }
+@media screen and (min-width: 768px) {
+  .cards-section {
+    display: flex;
+  }
+}
 
 a {
   text-decoration: none;
@@ -570,7 +580,7 @@ ul {
   list-style: none;
 }
 
-h4 {
+h3 {
   height: 22px;
   font-style: normal;
   font-weight: 500;
@@ -599,6 +609,12 @@ h4 {
 }
 .card-section-item:last-child {
   margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .card-section-item {
+    width: 224px;
+    height: 528px;
+  }
 }
 
 .container-one,
@@ -667,6 +683,11 @@ h4 {
   width: 216px;
   height: 0px;
   border-bottom: 1px solid #E1E1E1;
+}
+@media screen and (min-width: 768px) {
+  .line {
+    width: 160px;
+  }
 }
 
 .work-time {
