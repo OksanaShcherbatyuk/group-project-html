@@ -187,13 +187,19 @@ h4 {
         color: #2196F3;
     }
 }
+
+.buttons-section {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .location {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-content: center;
 }
 .franchise {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-content: center;
 }
@@ -202,7 +208,7 @@ h4 {
     margin-bottom: 10px;
     width: 161.45px;
     height: 44px;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -227,7 +233,7 @@ h4 {
         margin-bottom: 10px;
         width: 161.45px;
         height: 44px;
-        display: flex;
+        display: inline-flex;
         justify-content: center;
         align-items: center;
         text-align: center;
