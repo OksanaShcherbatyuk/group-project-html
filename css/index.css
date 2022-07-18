@@ -614,6 +614,8 @@ h3 {
   .card-section-item {
     width: 224px;
     height: 528px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
@@ -722,6 +724,12 @@ h3 {
   line-height: 18px;
   color: var(--secondary-text-color);
 }
+@media screen and (min-width: 768px) {
+  .description {
+    width: 159px;
+    height: 65px;
+  }
+}
 
 .contacts-mail {
   color: var(--secondary-text-color);
@@ -778,6 +786,14 @@ h3 {
   color: #D41342;
   background-color: var(--white-color);
 }
+.button-location:focus .svg-location {
+  fill: #D41342;
+  stroke: #D41342;
+}
+.button-location:hover .svg-location {
+  fill: #D41342;
+  stroke: #D41342;
+}
 
 .button-franchise {
   margin-bottom: 10px;
@@ -804,15 +820,21 @@ h3 {
   color: var(--white-color);
   background-color: #D41342;
 }
+.button-franchise:focus .svg-franchise {
+  fill: var(--white-color);
+  stroke: var(--white-color);
+}
+.button-franchise:hover .svg-franchise {
+  fill: var(--white-color);
+  stroke: var(--white-color);
+}
 
 .svg-location {
   display: inline-flex;
   align-items: center;
   margin-left: 8px;
   margin-top: 3px;
-}
-.svg-location:focus, .svg-location:hover {
-  fill: #D41342;
+  stroke: var(--white-color);
 }
 
 .svg-franchise {
@@ -820,9 +842,7 @@ h3 {
   align-items: center;
   margin-left: 20px;
   margin-top: 3px;
-}
-.svg-franchise:focus, .svg-franchise:hover {
-  fill: var(--white-color);
+  stroke: #D41342;
 }
 
 .button-location,
