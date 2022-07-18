@@ -246,7 +246,7 @@ h4 {
         color:#D41342;
         border-radius: 22px;
         border: none;
-        background-color: #000;
+        background-color: var(--white-color);
         .svg-franchise
                 {
                     
@@ -257,5 +257,28 @@ h4 {
             color: var(--white-color);
             background-color:#D41342;
             }
+    }
+    .svg-location {
+        display: inline-flex;
+        align-items: center;
+        margin-left: 8px;
+        margin-top: 3px;
+
+    }
+    
+    .svg-franchise {
+        display: inline-flex;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 3px;
+
+    }
+
+    .button-location,
+    .button-franchise {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
