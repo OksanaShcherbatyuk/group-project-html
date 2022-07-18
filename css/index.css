@@ -551,6 +551,7 @@ body {
 }
 
 .container-section {
+  max-width: 320px;
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -564,7 +565,7 @@ body {
 }
 
 .cards-section {
-  width: 280px;
+  max-width: 280px;
 }
 @media screen and (min-width: 768px) {
   .cards-section {
@@ -704,7 +705,7 @@ h3 {
 }
 
 .contacts-container {
-  width: 179px;
+  max-width: 179px;
   height: 37px;
   font-style: normal;
   font-weight: 500;
@@ -853,6 +854,12 @@ h3 {
 }
 
 /*---------------------modal-------------*/
+.is-hidden1 {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;

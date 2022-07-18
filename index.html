@@ -147,7 +147,7 @@
         </button>
       </li>
       <li class="franchise">
-        <button type="button" class="button-franchise btn-index" data-modal-open>Franchise
+        <button type="button" class="button-franchise btn-index" data-modal-open-two>Franchise
           <svg class="svg-franchise" width="7" height="10">
             <use href="./images/icons.svg#icon-arrow4"></use>
           </svg>
@@ -158,6 +158,11 @@
     <!--modal for location-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-one">
+        <button type="button" class="modal-btn" data-modal-close>
+          <svg class="modal-icon" width="10" height="10">
+            <use href="./images/icon-sprite.svg#icon-krestik"></use>
+          </svg>
+        </button>
     <div id="map-container" style="display: block;">
       <div id="pointer_desc">
         <ul>
@@ -917,9 +922,9 @@
     </div>
     </div>
     <!--modal for franchise-->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden1" data-modal-two>
       <div class="modal-two">
-        <button type="button" class="modal-btn" data-modal-close>
+        <button type="button" class="modal-btn" data-modal-close-two>
           <svg class="modal-icon" width="10" height="10">
             <use href="./images/icon-sprite.svg#icon-krestik"></use>
           </svg>
@@ -975,6 +980,7 @@
     src="https://maps.googleapis.com/maps/api/js?address=Ukraine&amp;key=AIzaSyA5-lhK-AzVDHRePR9bKPW8U9iLUTzuex4&amp;callback=initMap&amp;sensor=false&amp;libraries=places"></script>
 
   <script src="./js/modal.js"></script>
+  
 </body>
 
 </html>
