@@ -50,6 +50,7 @@ img {
 
 body {
   font-family: var(--primary-font-family), sans-serif;
+  margin: 0px;
 }
 
 .container {
@@ -530,6 +531,7 @@ body {
 }
 
 .section-contacts {
+  width: 100%;
   padding-bottom: 40px;
   padding-top: 60px;
   font-family: var(--primary-font-family);
@@ -544,8 +546,11 @@ body {
 }
 
 .container-section {
-  width: 100%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
