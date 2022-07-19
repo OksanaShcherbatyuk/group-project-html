@@ -588,6 +588,7 @@ body {
 @media screen and (min-width: 1200px) {
   .cards-section {
     display: flex;
+    justify-content: center;
     width: 100%;
   }
 }
@@ -600,30 +601,6 @@ ul {
   list-style: none;
 }
 
-.day {
-  height: 22px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 22px;
-  color: var(--primary-text-color);
-}
-@media screen and (min-width: 768px) {
-  .day {
-    height: 24px;
-    font-size: 14px;
-    line-height: 26px;
-  }
-}
-
-/*
-.cards-section {
-    padding-top: 4896px;
-    padding-bottom: 40px;
-}
-.cards-section:last-child {
-    padding-bottom: 0px;
-}*/
 .card-section-item {
   display: inline-block;
   margin-bottom: 20px;
@@ -697,6 +674,11 @@ ul {
     line-height: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .cafe {
+    width: 75.1px;
+  }
+}
 
 .foodtrack {
   display: flex;
@@ -746,6 +728,42 @@ ul {
     line-height: 26px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .city {
+    margin-bottom: 8px;
+    width: 97px;
+    font-size: 16px;
+    line-height: 29.76px;
+  }
+}
+
+.description {
+  margin-bottom: 24px;
+  width: 179px;
+  height: 36px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--secondary-text-color);
+}
+@media screen and (min-width: 768px) {
+  .description {
+    margin-bottom: 32px;
+    width: 159px;
+    height: 65px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .description {
+    width: 250px;
+    font-size: 16px;
+    line-height: 29.28px;
+  }
+}
 
 .line {
   margin-bottom: 24px;
@@ -757,6 +775,34 @@ ul {
   .line {
     width: 160px;
     margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .line {
+    width: 288px;
+  }
+}
+
+.day {
+  height: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  color: var(--primary-text-color);
+}
+@media screen and (min-width: 768px) {
+  .day {
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .day {
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
   }
 }
 
@@ -777,6 +823,15 @@ ul {
     margin-bottom: 12px;
     font-size: 14px;
     line-height: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-time {
+    height: 30px;
+    width: 167.7px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 30px;
   }
 }
 
@@ -801,25 +856,11 @@ ul {
     line-height: 26px;
   }
 }
-
-.description {
-  margin-bottom: 24px;
-  width: 179px;
-  height: 36px;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 18px;
-  color: var(--secondary-text-color);
-}
-@media screen and (min-width: 768px) {
-  .description {
-    margin-bottom: 32px;
-    width: 159px;
-    height: 65px;
-    font-size: 14px;
-    line-height: 23px;
+@media screen and (min-width: 1200px) {
+  .contacts-container {
+    width: 250px;
+    font-size: 16px;
+    line-height: 29px;
   }
 }
 
@@ -827,14 +868,14 @@ ul {
   color: var(--secondary-text-color);
 }
 .contacts-mail:focus, .contacts-mail:hover {
-  color: #2196F3;
+  color: #D41342;
 }
 
 .contacts-tel {
   color: var(--secondary-text-color);
 }
 .contacts-tel:focus, .contacts-tel:hover {
-  color: #2196F3;
+  color: #D41342;
 }
 
 .buttons-section {
@@ -858,6 +899,11 @@ ul {
 @media screen and (min-width: 768px) {
   .location {
     margin-right: 14.5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .location {
+    margin-right: 12px;
   }
 }
 
@@ -897,6 +943,17 @@ ul {
   fill: #D41342;
   stroke: #D41342;
 }
+@media screen and (min-width: 768px) {
+  .button-location {
+    width: 191.45px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button-location {
+    width: 198px;
+    height: 44px;
+  }
+}
 
 .button-franchise {
   margin-bottom: 10px;
@@ -930,6 +987,16 @@ ul {
 .button-franchise:hover .svg-franchise {
   fill: var(--white-color);
   stroke: var(--white-color);
+}
+@media screen and (min-width: 768px) {
+  .button-franchise {
+    width: 174.05px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button-franchise {
+    width: 168px;
+  }
 }
 
 .svg-location {
