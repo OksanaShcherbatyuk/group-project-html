@@ -541,12 +541,12 @@ body {
 }
 @media screen and (min-width: 768px) {
   .section-contacts {
-    background-image: linear-gradient(to bottom, #fafafa 50%, var(--background-color) 50%, var(--background-color) 100%);
+    background-image: linear-gradient(to bottom, #fafafa 45%, var(--background-color) 45%, var(--background-color) 100%);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .section-contacts {
-    background-image: linear-gradient(to bottom, #fafafa 50%, var(--background-color) 50%, var(--background-color) 100%);
+    background-image: linear-gradient(to bottom, #fafafa 21%, var(--background-color) 21%, var(--background-color) 100%);
   }
 }
 
@@ -564,6 +564,14 @@ body {
     max-width: 768px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .container-section {
+    min-width: 1200px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 
 .hidden {
   display: none;
@@ -575,6 +583,12 @@ body {
 @media screen and (min-width: 768px) {
   .cards-section {
     display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cards-section {
+    display: flex;
+    width: 368px;
   }
 }
 
@@ -631,6 +645,11 @@ ul {
     height: 478px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card-section-item {
+    width: 368px;
   }
 }
 
