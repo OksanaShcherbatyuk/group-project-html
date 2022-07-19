@@ -54,16 +54,22 @@
     display: none;
 }
 .cards-section {
-    max-width: 280px;
+    width: 280px;
 
     @media screen and (min-width: 768px) {
             display: flex;
         }
     @media screen and (min-width: 1200px) {
         display: flex;
-        width: 368px;
+        width: 100%;
     }
 }
+// .container-one, .container-two, .contacts-container {
+// @media screen and (min-width: 1200px) {
+//         display: block;
+//         width: 368px;
+//     }
+// }
 a {
     text-decoration: none;
 }

@@ -578,7 +578,7 @@ body {
 }
 
 .cards-section {
-  max-width: 280px;
+  width: 280px;
 }
 @media screen and (min-width: 768px) {
   .cards-section {
@@ -588,7 +588,7 @@ body {
 @media screen and (min-width: 1200px) {
   .cards-section {
     display: flex;
-    width: 368px;
+    width: 100%;
   }
 }
 
