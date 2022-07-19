@@ -650,6 +650,10 @@ ul {
 @media screen and (min-width: 1200px) {
   .card-section-item {
     width: 368px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -657,6 +661,7 @@ ul {
 .container-two,
 .contacts-container {
   display: inline-block;
+  width: 288px;
 }
 
 .cafe {
