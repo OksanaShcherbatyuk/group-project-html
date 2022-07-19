@@ -524,12 +524,29 @@ ul {
         position: absolute;
         z-index: 4;
         display: flex;
-        justify-content: center;
+        
         align-items: center;
+        margin-top: 15px;
 
+    }
+    .label-description {
+        display: flex;
     }
     .label {
         width: 5%;
+        margin-left: 20px;
+        @media screen and (max-width: 768px) {
+                width: 10%;
+                height: 10%;
+                margin-left: 2px;
+            }
+        @media screen and (max-width: 320px) {
+            width: 15%;
+        }
+    }
+    .label-title {
+        margin-left: 10px;
+        font-weight: 700;
     }
         .modal-two {
             position: absolute;
