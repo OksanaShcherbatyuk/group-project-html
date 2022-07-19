@@ -20,6 +20,8 @@
                     var(--background-color) 100%);
     }
         @media screen and (min-width: 1200px) {
+            display: flex;
+            justify-content: center;
             background-image: linear-gradient(to bottom,
                     #fafafa 21%,
                     var(--background-color) 21%,
@@ -43,9 +45,7 @@
         }
     @media screen and (min-width: 1200px) {
                     min-width: 1200px;
-                    padding: 0px;
-                    margin-left: 0px;
-                    margin-right: 0px;
+                    
                 }
 }
 .hidden {
@@ -124,7 +124,7 @@ ul {
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
-        line-height: 22px;
+        line-height: 1.83;
     letter-spacing: 0.04em;
     color: var(--white-color);
     background-color: #F0D1A5;
@@ -133,7 +133,7 @@ ul {
             height: 28px;
             margin-bottom: 32px;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.87;
         }
     @media screen and (min-width: 1200px) {
         width: 75.1px;
@@ -154,7 +154,7 @@ ul {
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
-        line-height: 22px;
+        line-height: 1.83;
         letter-spacing: 0.04em;
         color: var(--white-color);
         background-color: #C2E297;
@@ -163,7 +163,7 @@ ul {
                 height: 28px;
                 margin-bottom: 32px;
                 font-size: 16px;
-                line-height: 30px;
+                line-height: 1.87;
             }
                     
 }
@@ -176,7 +176,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 22px;
+    line-height: 1.83;
     letter-spacing: 0.04em;
     color: var(--primary-text-color);
     @media screen and (min-width: 768px) {
@@ -184,14 +184,14 @@ ul {
             margin-bottom: 12px;
             width: 93px;
             font-size: 14px;
-            line-height: 26px;
+            line-height: 1.86;
         }
     @media screen and (min-width: 1200px) {
 
         margin-bottom: 8px;
         width: 97px;
         font-size: 16px;
-        line-height: 29.76px;
+        line-height: 1.87;
     }
 
 }
@@ -203,7 +203,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 1.5;
 
     color: var(--secondary-text-color);
 
@@ -213,13 +213,13 @@ ul {
         width: 159px;
         height: 65px;
         font-size: 14px;
-        line-height: 23px;
+        line-height: 1.64;
     }
         @media screen and (min-width: 1200px) {
     
             width: 250px;
             font-size: 16px;
-            line-height: 29.28px;
+            line-height: 1.81;
         }
 }
 .line {
@@ -242,20 +242,20 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 22px;
+    line-height: 1.83;
     color: var(--primary-text-color);
 
     @media screen and (min-width: 768px) {
 
         height: 24px;
         font-size: 14px;
-        line-height: 26px;
+        line-height: 1.86;
     }
         @media screen and (min-width: 1200px) {
     
             height: 30px;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.87;
         }
 }
 .work-time {
@@ -265,7 +265,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 1, 83;
+    line-height: 1.83;
     color: var(--secondary-accent-color);
     @media screen and (min-width: 768px) {
     
@@ -273,7 +273,7 @@ ul {
             width: 159px;
             margin-bottom: 12px;
             font-size: 14px;
-            line-height: 26px;
+            line-height: 1.86;
         }
         @media screen and (min-width: 1200px) {
     
@@ -281,7 +281,7 @@ ul {
             width: 167.7px;
             margin-bottom: 12px;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.87;
         }
 }
 
@@ -299,17 +299,17 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 1.5;
     color: var(--secondary-text-color);
     @media screen and (min-width: 768px) {
 
             font-size: 14px;
-            line-height: 26px;
+            line-height: 1.86;
         }
                 @media screen and (min-width: 1200px) {
                     width: 250px;
                     font-size: 16px;
-                    line-height: 29px;
+                    line-height: 1.81;
                 }
 }
 
@@ -372,7 +372,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 1.31;
         
     color: var(--white-color);
     border-radius: 22px;
@@ -413,7 +413,7 @@ ul {
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
-        line-height: 21px;
+        line-height: 1.31;
     
         color:#D41342;
         border-radius: 22px;
@@ -592,7 +592,7 @@ ul {
                     margin-top: 10px;
                     font-weight: 700;
                     font-size: 16px;
-                    line-height: 23px;
+                    line-height: 1.44;
                     text-align: center;
                     letter-spacing: 0.03em;
                     color: var(--primary-text-color);
