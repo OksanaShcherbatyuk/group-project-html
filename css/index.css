@@ -661,7 +661,13 @@ ul {
 .container-two,
 .contacts-container {
   display: inline-block;
-  width: 288px;
+}
+@media screen and (min-width: 1200px) {
+  .container-one,
+.container-two,
+.contacts-container {
+    width: 288px;
+  }
 }
 
 .cafe {
