@@ -539,14 +539,14 @@ body {
   color: var(--primary-text-color);
   background-image: linear-gradient(to bottom, #fafafa 21%, var(--background-color) 21%, var(--background-color) 100%);
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .section-contacts {
-    width: 320px;
+    background-image: linear-gradient(to bottom, #fafafa 50%, var(--background-color) 50%, var(--background-color) 100%);
   }
 }
 @media screen and (min-width: 768px) {
   .section-contacts {
-    width: 768px;
+    background-image: linear-gradient(to bottom, #fafafa 50%, var(--background-color) 50%, var(--background-color) 100%);
   }
 }
 
@@ -558,6 +558,11 @@ body {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .container-section {
+    max-width: 768px;
+  }
 }
 
 .hidden {
@@ -581,13 +586,20 @@ ul {
   list-style: none;
 }
 
-h3 {
+.day {
   height: 22px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1, 83;
+  line-height: 22px;
   color: var(--primary-text-color);
+}
+@media screen and (min-width: 768px) {
+  .day {
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+  }
 }
 
 /*
@@ -603,7 +615,7 @@ h3 {
   margin-bottom: 20px;
   padding: 40px 32px;
   width: 216px;
-  height: 332px;
+  min-height: 332px;
   background-color: var(--white-color);
   border-radius: 24px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
@@ -613,8 +625,10 @@ h3 {
 }
 @media screen and (min-width: 768px) {
   .card-section-item {
+    margin-right: 32px;
+    margin-bottom: 60px;
     width: 224px;
-    height: 528px;
+    height: 478px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -644,6 +658,15 @@ h3 {
   color: var(--white-color);
   background-color: #F0D1A5;
 }
+@media screen and (min-width: 768px) {
+  .cafe {
+    width: 73px;
+    height: 28px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
 
 .foodtrack {
   display: flex;
@@ -663,10 +686,19 @@ h3 {
   color: var(--white-color);
   background-color: #C2E297;
 }
+@media screen and (min-width: 768px) {
+  .foodtrack {
+    width: 138px;
+    height: 28px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
 
 .city {
   margin-bottom: 8px;
-  width: 57.01px;
+  width: 75px;
   height: 22px;
   font-family: var(--primary-font-family);
   font-style: normal;
@@ -676,9 +708,13 @@ h3 {
   letter-spacing: 0.04em;
   color: var(--primary-text-color);
 }
-
-.city-la {
-  width: 75px;
+@media screen and (min-width: 768px) {
+  .city {
+    margin-bottom: 12px;
+    width: 93px;
+    font-size: 14px;
+    line-height: 26px;
+  }
 }
 
 .line {
@@ -690,6 +726,7 @@ h3 {
 @media screen and (min-width: 768px) {
   .line {
     width: 160px;
+    margin-bottom: 32px;
   }
 }
 
@@ -703,6 +740,21 @@ h3 {
   line-height: 1, 83;
   color: var(--secondary-accent-color);
 }
+@media screen and (min-width: 768px) {
+  .work-time {
+    height: 21px;
+    width: 159px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .weekends {
+    margin-bottom: 32px;
+  }
+}
 
 .contacts-container {
   max-width: 179px;
@@ -712,6 +764,12 @@ h3 {
   font-size: 12px;
   line-height: 18px;
   color: var(--secondary-text-color);
+}
+@media screen and (min-width: 768px) {
+  .contacts-container {
+    font-size: 14px;
+    line-height: 26px;
+  }
 }
 
 .description {
@@ -727,8 +785,11 @@ h3 {
 }
 @media screen and (min-width: 768px) {
   .description {
+    margin-bottom: 32px;
     width: 159px;
     height: 65px;
+    font-size: 14px;
+    line-height: 23px;
   }
 }
 
@@ -752,11 +813,22 @@ h3 {
   flex-direction: column;
   width: 280px;
 }
+@media screen and (min-width: 768px) {
+  .buttons-section {
+    flex-direction: row;
+    width: 100%;
+  }
+}
 
 .location {
   display: inline-flex;
   justify-content: center;
   align-content: center;
+}
+@media screen and (min-width: 768px) {
+  .location {
+    margin-right: 14.5px;
+  }
 }
 
 .franchise {
@@ -908,12 +980,6 @@ h3 {
   .modal-two {
     width: 230px;
     height: 420px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .modal-two {
-    width: 528px;
-    height: 581px;
   }
 }
 
