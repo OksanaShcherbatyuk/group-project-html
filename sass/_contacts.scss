@@ -52,7 +52,7 @@
     display: none;
 }
 .cards-section {
-    width: 280px;
+    width: 100%;
 
     @media screen and (min-width: 768px) {
             display: flex;
@@ -101,15 +101,7 @@ ul {
             padding-right: 40px;
         }
 }
-.container-one,
-.container-two,
-.contacts-container {
-    display: inline-block;
-    @media screen and (min-width: 1200px) {
-            width: 288px;
-        }
-    
-}
+
 
 .cafe {
     display: flex;
@@ -232,7 +224,7 @@ ul {
         width: 160px; 
         margin-bottom: 32px;
         }
-                @media screen and (min-width: 768px) {
+                @media screen and (min-width: 1200px) {
                     width: 288px;
                     
                 }

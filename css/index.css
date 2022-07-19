@@ -577,7 +577,7 @@ body {
 }
 
 .cards-section {
-  width: 280px;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .cards-section {
@@ -630,19 +630,6 @@ ul {
     margin-right: 16px;
     padding-left: 40px;
     padding-right: 40px;
-  }
-}
-
-.container-one,
-.container-two,
-.contacts-container {
-  display: inline-block;
-}
-@media screen and (min-width: 1200px) {
-  .container-one,
-.container-two,
-.contacts-container {
-    width: 288px;
   }
 }
 
@@ -776,7 +763,7 @@ ul {
     margin-bottom: 32px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .line {
     width: 288px;
   }
